@@ -13,6 +13,7 @@ class BankBranch {
             this.branchInfo = branchInfo;
             bankBranchInstance = this;
 //    - Return the `bankBranchInstance` whether it's newly created or existing.
+            return bankBranchInstance;
         }
 
     }
